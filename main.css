@@ -1,79 +1,58 @@
-html.mytheme-mode {
-    --primary: #141414;
-
-    --secondary: #E9003F;
-    --secondary-hover: #c40034;
-    --secondary-opacity-half: #E9003F80;
-    --secondary-hover-opacity: #E9003F40;
-    --secondary-disabled: #99002980;
-
-    --backdrop: #0e0e0e;
-
-    --titlebar: var(--primary);
-
-    --scroll: #545454;
-    --scroll-width: 12px;
-    --scroll-radius: 8px;
-
-    --logo: #ffffff;
-
-    --left: #0e0e0e;
-    --left-queue: #0e0e0e;
-    --left-icons: #ffffff;
-
-    --navigation: #141414;
-    --navigation-text: #ffffff;
-    --navigation-select: #ffffff26;
-
-    --border: #202020;
-    --borderWidth: 2px;
-
-    --player: #0e0e0e;
-    --player-darker: #0b0b0b;
-    --player-slider: #ffffff26;
-    --player-slider-progress: #ffffff52;
-
-    --text: #ffffff;
-    --small-text: #aaaeb4;
-
-    --song-performer: #9a9a9a;
-    --song-title: #e2e5e9;
-    --song-subtitle: #999999;
-    --song-playing: #101010;
-    --song-hover: #11111140;
-
-    --item: rgba(26, 26, 26, var(--alpha));
-    --item-hover: rgba(47, 47, 47, var(--alpha));
-    --item-disabled: #000;
-
-    --field: #1a1a1a;
-
-    --icons: #acacac;
-    --icons-hover: #bdbdbd;
-    --icons-disabled: #303030;
-
-    --no-cover: var(--text);
-    --no-cover-background: #060606;
-
-    --links: #929292;
-    --links-active: #ffffff;
-    --links-hover: #ffffff;
-
-    --buttons-text: #ffffff;
-
-    --tooltip: var(--secondary);
-    --tooltip-text: var(--text);
-
-    --settings-view: #1d1d1d;
-
-    --switch-unchecked: #545454;
-
-    --skeleton-background: rgba(16, 16, 16, var(--alpha));
-    --skeleton-highlight: rgba(22, 22, 22, var(--alpha));
+html.movitone-mode {
+  --primary: #13573fff;
+  --secondary: #248563ff;
+  --secondary-hover: #35bd8dff;
+  --secondary-opacity-half: #35bd8d8a;
+  --secondary-hover-opacity: #35bd8d47;
+  --secondary-disabled: #19382dff;
+  --titlebar: #104a36ff;
+  --backdrop: #13573fff;
+  --scroll: #0b3023ff;
+  --logo: #ffffffff;
+  --left: #1e825eff;
+  --left-queue: #1e825eff;
+  --left-icons: #ffffff;
+  --navigation: #062408ff;
+  --navigation-text: #ffffff;
+  --navigation-select: #baffea59;
+  --border: #13573f00;
+  --player: #13573fff;
+  --player-darker: #0f4532ff;
+  --player-slider: #1f996eff;
+  --player-slider-progress: #ffffffff;
+  --text: #ffffff;
+  --small-text: #aaaeb4;
+  --song.playing: #ffffff;
+  --song-name-container-title-label: #ffffff;
+  --song-performer: #9a9a9a;
+  --song-title: #ffffffff;
+  --song-subtitle: #999999;
+  --song-playing: #13573fff;
+  --song-hover: #ffffffff;
+  --item: #1a1a1a;
+  --item-hover: #2f2f2f;
+  --item-disabled: #0b1c08ff;
+  --field: #0b1904ff;
+  --icons: #acacac;
+  --icons-hover: #bdbdbd;
+  --icons-disabled: #303030;
+  --no-cover: #ffffffff;
+  --no-cover-background: #13573fff;
+  --links: #929292;
+  --links-active: #ffffff;
+  --links-hover: #ffffff;
+  --buttons-text: #ffffff;
+  --tooltip: #2baf52ff;
+  --tooltip-text: #ffffff;
+  --settings-view: #13573fff;
+  --switch-unchecked: #292929ff;
+  --skeleton-background: #0b3325ff;
+  --skeleton-highlight: #0c3828ff;
 }
-
+/*
 html.classic-mode.acryl {
     --song-playing: #10101075;
     --backdrop: #0a0a0ad9 !important;
     --settings-view: #1d1d1dd9 !important;
 }
+*/
