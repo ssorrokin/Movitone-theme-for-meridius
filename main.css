@@ -21,33 +21,31 @@ html.movitone-mode {
   --player-slider: #1f996eff;
   --player-slider-progress: #ffffffff;
   --text: #ffffff;
-  --small-text: #aaaeb4;
-  --song.playing: #ffffff;
-  --song-name-container-title-label: #ffffff;
-  --song-performer: #9a9a9a;
+  --small-text: #ffffffff;
+  --song-performer: #ffffffff;
   --song-title: #ffffffff;
-  --song-subtitle: #999999;
+  --song-subtitle: #ffffffff;
   --song-playing: #13573fff;
-  --song-hover: #ffffffff;
-  --item: #1a1a1a;
-  --item-hover: #2f2f2f;
-  --item-disabled: #0b1c08ff;
-  --field: #0b1904ff;
-  --icons: #acacac;
-  --icons-hover: #bdbdbd;
-  --icons-disabled: #303030;
+  --song-hover: #35bd8dff;
+  --item: #12664eff;
+  --item-hover: #1c664bff;
+  --item-disabled: #113d2dff;
+  --field: #1b5e47ff;
+  --icons: #c4c4c4ff;
+  --icons-hover: #ffffffff;
+  --icons-disabled: #8c8c8cff;
   --no-cover: #ffffffff;
   --no-cover-background: #13573fff;
   --links: #929292;
   --links-active: #ffffff;
   --links-hover: #ffffff;
   --buttons-text: #ffffff;
-  --tooltip: #2baf52ff;
+  --tooltip: #2baf78ff;
   --tooltip-text: #ffffff;
   --settings-view: #13573fff;
   --switch-unchecked: #292929ff;
   --skeleton-background: #0b3325ff;
-  --skeleton-highlight: #0c3828ff;
+  --skeleton-highlight: #0c3828ff
 }
 /*
 html.classic-mode.acryl {
