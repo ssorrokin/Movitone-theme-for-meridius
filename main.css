@@ -47,7 +47,4 @@ html.movitone-mode {
   --skeleton-background: #0b3325ff;
   --skeleton-highlight: #0c3828ff
 }
-/* White color for plaing song name */
-.song.playing .song-index-number,.song.playing .song-name-container-title-label {
-    color: #ffffff!important;
-}
+
