@@ -1,20 +1,21 @@
 html.movitone-mode {
+  --song-name-container-title-label: #ffffff;
   --primary: #13573fff;
   --secondary: #248563ff;
   --secondary-hover: #35bd8dff;
   --secondary-opacity-half: #35bd8d8a;
   --secondary-hover-opacity: #35bd8d47;
   --secondary-disabled: #19382dff;
-  --titlebar: #104a36ff;
+  --titlebar: #13573fff;
   --backdrop: #13573fff;
   --scroll: #0b3023ff;
   --logo: #ffffffff;
-  --left: #1e825eff;
-  --left-queue: #1e825eff;
+  --left: #13573fff;
+  --left-queue: #13573fff;
   --left-icons: #ffffff;
-  --navigation: #062408ff;
+  --navigation: #1b7555ff;
   --navigation-text: #ffffff;
-  --navigation-select: #baffea59;
+  --navigation-select: #1b7555ff;
   --border: #13573f00;
   --player: #13573fff;
   --player-darker: #0f4532ff;
@@ -25,8 +26,8 @@ html.movitone-mode {
   --song-performer: #ffffffff;
   --song-title: #ffffffff;
   --song-subtitle: #ffffffff;
-  --song-playing: #13573fff;
-  --song-hover: #35bd8dff;
+  --song-playing: #1b7555ff;
+  --song-hover: #176348c9;
   --item: #12664eff;
   --item-hover: #1c664bff;
   --item-disabled: #113d2dff;
@@ -45,6 +46,15 @@ html.movitone-mode {
   --settings-view: #13573fff;
   --switch-unchecked: #292929ff;
   --skeleton-background: #0b3325ff;
-  --skeleton-highlight: #0c3828ff
+  --skeleton-highlight: #0c3828ff;
 }
-
+/* White color for plaing song name */
+.song.playing .song-index-number, .song.playing .song-name-container-title-label {
+    color: #ffffff!important;
+}
+.song-name-container-title-label {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    grid-area: song-title;
+}
