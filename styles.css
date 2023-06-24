@@ -1,0 +1,10 @@
+/* White color for plaing song name */
+.song.playing .song-index-number, .song.playing .song-name-container-title-label {
+    color: #ffffff!important;
+}
+.song-name-container-title-label {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    grid-area: song-title;
+}
