@@ -47,10 +47,7 @@ html.movitone-mode {
   --skeleton-background: #0b3325ff;
   --skeleton-highlight: #0c3828ff
 }
-/*
-html.classic-mode.acryl {
-    --song-playing: #10101075;
-    --backdrop: #0a0a0ad9 !important;
-    --settings-view: #1d1d1dd9 !important;
+/* White color for plaing song name */
+.song.playing .song-index-number,.song.playing .song-name-container-title-label {
+    color: #ffffff!important;
 }
-*/
